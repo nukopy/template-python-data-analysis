@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  python-for-algorithmic-trading:
+    image: python-for-algorithmic-trading
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "8888:8888"
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    volumes:
+      # jovyan でないとダメ
+      - .:/home/jovyan/workdir
+    command: start-notebook.sh --NotebookApp.token=''
