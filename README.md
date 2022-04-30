@@ -2,7 +2,7 @@
 
 ## Setup
 
-1. Build Docker image with a command `make u` (takes few minutes)
+1. Build Docker image with a command `make b` (takes few minutes)
 2. Start Docker container on background with a command `make u`
 3. Open development environment:
    - If you wanna develop on Jupyter Lab, open [http://127.0.0.1:8888/lab](http://127.0.0.1:8888/lab) on your browser
