@@ -2,20 +2,21 @@
 
 ## Setup
 
-1. Build Docker image with a command `make b` (takes few minutes)
-2. Start Docker container on background with a command `make u`
-3. Open development environment:
+1. Build the Docker image with the command `make b` (takes few minutes)
+2. Start the Docker container on background with the command `make u`
+3. Open the development environment:
    - If you wanna develop on Jupyter Lab, open [http://127.0.0.1:8888/lab](http://127.0.0.1:8888/lab) on your browser
    - If you wanna develop on Visual Studio Code, press `cmd + shift + P` on Visual Studio Code and select **"Remote - Containers: Reopen in Container"**
+4. Stop & Remove the Docker container with the command `make d`
 
 ```sh
-# Build Docker image
+# 1. Build the Docker image
 make b
 
-# Start Docker container on background
+# 2. Start the Docker container on background
 make u
 
-# Stop & Remove Docker container
+# 4. Stop & Remove the Docker container
 make d
 ```
 
