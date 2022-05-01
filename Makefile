@@ -51,7 +51,7 @@ test:  ## Run tests with pytest
 	pytest -v $(TESTS_DIR) --cov=$(SRC_DIR) --cov-report=html --cov-report=xml --junitxml=junit/test-results.xml
 
 prepare:  ## Excecute before commits
-	# make type
+	make type
 	make lint
 	make format
 	make test
