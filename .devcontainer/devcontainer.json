@@ -38,7 +38,7 @@
     "kevinrose.vsc-python-indent",
     "njqdev.vscode-python-typehint",
     "cstrap.python-snippets"
-  ]
+  ],
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [],
@@ -50,7 +50,7 @@
   // "shutdownAction": "none",
 
   // Uncomment the next line to run commands after the container is created - for example installing curl.
-  // "postCreateCommand": "apt-get update && apt-get install -y curl",
+  "postCreateCommand": "git config --global user.name \"nukopy\" && git config --global user.email \"nukopy@gmail.com\""
 
   // Uncomment to connect as a non-root user if you've added one. See https://aka.ms/vscode-remote/containers/non-root.
   // "remoteUser": "vscode"
