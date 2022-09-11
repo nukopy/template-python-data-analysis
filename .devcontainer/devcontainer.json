@@ -26,10 +26,18 @@
 
   // Add the IDs of extensions you want installed when the container is created.
   "extensions": [
+    // general
     "lfs.vscode-emacs-friendly",
-    "ms-python.python",
     "oderwat.indent-rainbow",
-    "codezombiech.gitignore"
+    "codezombiech.gitignore",
+    "grapecity.gc-excelviewer",
+    "visualstudioexptteam.vscodeintellicode",
+    // for Python
+    "ms-python.python",
+    "donjayamanne.python-environment-manager",
+    "kevinrose.vsc-python-indent",
+    "njqdev.vscode-python-typehint",
+    "cstrap.python-snippets"
   ]
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
